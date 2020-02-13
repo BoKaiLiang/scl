@@ -18,8 +18,8 @@
  *      - [srdja/Collections-C](https://github.com/srdja/Collections-C/blob/master/src/array.c)
  */
 
-#ifndef _DYARRAY_H_
-#define _DYARRAY_H_
+#ifndef _SCL_DYARRAY_H_
+#define _SCL_DYARRAY_H_
 
 #include <stdlib.h>
 #include <string.h>
@@ -60,4 +60,4 @@ void* _dyarr_expand(void* arr, int count, int itemsz);
 void _dyarr_free(void* arr);
 int _dyarr_count(void* arr);
 
-#endif // _DYARRAY_H_
+#endif // _SCL_DYARRAY_H_
